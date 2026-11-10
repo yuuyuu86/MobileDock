@@ -1,0 +1,111 @@
+name: MobileDock
+options:
+  bundleIdPrefix: com.mobiledock
+  deploymentTarget:
+    macOS: "14.0"
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: "743V6AYMZ2"
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+
+targets:
+  MobileDockMac:
+    type: application
+    platform: macOS
+    sources:
+      - path: Mac/Sources
+      - path: Shared
+      - path: Mac/Resources
+        buildPhase: resources
+        optional: true
+    info:
+      path: Mac/Info.plist
+      properties:
+        CFBundleName: MobileDock
+        CFBundleDisplayName: MobileDock
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, ja]
+        LSUIElement: true
+        LSMinimumSystemVersion: "14.0"
+        NSHumanReadableCopyright: "MobileDock"
+        NSLocalNetworkUsageDescription: "MobileDock connects to your iPhone or iPad on this network."
+        NSBonjourServices:
+          - _mobiledock._tcp
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mobiledock.mac
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_ENTITLEMENTS: Mac/MobileDockMac.entitlements
+        # A stable signing identity keeps the Accessibility grant across rebuilds;
+        # ad-hoc ("-") signing makes macOS forget it every time.
+        CODE_SIGN_IDENTITY: "Apple Development"
+        ENABLE_HARDENED_RUNTIME: NO
+        COMBINE_HIDPI_IMAGES: YES
+
+  MobileDock:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: iOS/Sources
+      - path: Shared
+      - path: iOS/Resources
+        buildPhase: resources
+        optional: true
+    info:
+      path: iOS/Info.plist
+      properties:
+        CFBundleName: MobileDock
+        CFBundleDisplayName: MobileDock
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, ja]
+        UILaunchScreen:
+          UIColorName: ""
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UIRequiresFullScreen: false
+        UIStatusBarStyle: UIStatusBarStyleLightContent
+        UIUserInterfaceStyle: Dark
+        NSLocalNetworkUsageDescription: "MobileDock finds and controls your Mac on this Wi‑Fi network."
+        NSBonjourServices:
+          - _mobiledock._tcp
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mobiledock.ios
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGN_IDENTITY: "Apple Development"
+        CODE_SIGN_IDENTITY[sdk=iphonesimulator*]: ""
+
+schemes:
+  MobileDockMac:
+    build:
+      targets:
+        MobileDockMac: all
+    run:
+      config: Debug
+    archive:
+      config: Release
+
+  MobileDock:
+    build:
+      targets:
+        MobileDock: all
+    run:
+      config: Debug
+    archive:
+      config: Release

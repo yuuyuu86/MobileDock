@@ -1,0 +1,38 @@
+/* MobileDock for Mac — Japanese */
+
+"MobileDock" = "MobileDock";
+"Turn an iPhone or iPad into a control surface for your Mac." = "iPhone / iPad を Mac の操作パネルにします。";
+
+/* Menu bar panel */
+"PAIRING PIN" = "ペアリング PIN";
+"Enter this on your iPhone or iPad to connect." = "iPhone / iPad でこの番号を入力すると接続できます。";
+"DEVICES" = "デバイス";
+"No device connected yet" = "接続中のデバイスはありません";
+"Grant Accessibility access" = "アクセシビリティを許可";
+"Needed for emoji, text and window gestures." = "絵文字入力・文字入力・ウインドウ操作に必要です。";
+"Setup Guide" = "セットアップ";
+"Settings…" = "設定…";
+"Quit MobileDock" = "MobileDock を終了";
+"Launch & switch apps" = "アプリの起動・切り替え";
+"Pointer, keyboard & windows" = "ポインタ・キーボード・ウインドウ";
+"Files & clipboard" = "ファイル・クリップボード";
+
+/* Welcome */
+"Welcome to MobileDock" = "MobileDock へようこそ";
+"Your phone becomes the third interface on your desk." = "手元の iPhone が、机の上の3つ目のインターフェースになります。";
+"Open Privacy & Security…" = "プライバシーとセキュリティを開く…";
+
+/* Settings */
+"General" = "一般";
+"Connection" = "接続";
+"About" = "情報";
+"Launch MobileDock at login" = "ログイン時に起動";
+"Hide system utilities from the app list" = "システムのユーティリティを一覧から隠す";
+"Apps found" = "見つかったアプリ";
+"Shortcuts found" = "見つかったショートカット";
+"Rescan apps" = "アプリを再スキャン";
+"Reload Shortcuts" = "ショートカットを再読み込み";
+"Status" = "状態";
+"Current PIN" = "現在の PIN";
+"Generate a new PIN" = "新しい PIN を発行";
+"Forget all paired devices" = "ペアリング済みのデバイスをすべて削除";

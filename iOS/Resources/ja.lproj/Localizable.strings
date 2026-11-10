@@ -1,0 +1,169 @@
+/* MobileDock — Japanese */
+
+"MobileDock" = "MobileDock";
+"The third interface for your Mac." = "Mac のための3つ目のインターフェース";
+
+/* Connect */
+"MACS NEARBY" = "近くの MAC";
+"Looking for your Mac…" = "Mac を探しています…";
+"Open MobileDock on the Mac and keep both devices on the same network." = "Mac で MobileDock を開き、両方を同じネットワークに繋いでください。";
+"Both devices need to be on the same Wi‑Fi network, with MobileDock running on your Mac." = "両方の端末が同じ Wi‑Fi にあり、Mac で MobileDock が動いている必要があります。";
+"Enter the PIN from" = "この Mac の PIN を入力";
+"Choose a different Mac" = "別の Mac を選ぶ";
+"Reconnecting…" = "再接続中…";
+"Retry" = "再試行";
+"Connected" = "接続済み";
+"Offline" = "オフライン";
+"Switch" = "切り替え";
+
+/* Board */
+"Add" = "追加";
+"Add page" = "ページを追加";
+"Dock" = "ドック";
+"Recents" = "履歴";
+"Emoji" = "絵文字";
+"Clipboard" = "クリップボード";
+"Trackpad" = "トラックパッド";
+"Keyboard" = "キーボード";
+"Status" = "ステータス";
+"Search" = "検索";
+"Settings" = "設定";
+"Close" = "閉じる";
+"Done" = "完了";
+"Cancel" = "キャンセル";
+"Save" = "保存";
+"Remove" = "削除";
+"Forget" = "削除";
+"Open" = "開く";
+
+/* Tiles */
+"Bring to front" = "最前面にする";
+"Hide" = "隠す";
+"Quit" = "終了";
+"Windows…" = "ウインドウ…";
+"Edit tile" = "タイルを編集";
+"Remove tile" = "タイルを削除";
+"Label" = "ラベル";
+"Icon" = "アイコン";
+"Target" = "対象";
+"Color" = "色";
+"Page" = "ページ";
+"Name" = "名前";
+"Shown on the tile" = "タイルに表示";
+"App tiles use the Mac’s own app icon." = "アプリのタイルは Mac のアプリアイコンを使います。";
+"Apps" = "アプリ";
+"Shortcuts" = "ショートカット";
+"Add website" = "Web サイトを追加";
+"Add as a tile" = "タイルとして追加";
+"Pick an emoji to keep one tap away. Tapping its tile types it on the Mac." = "よく使う絵文字をタイルにしておくと、タップで Mac に入力できます。";
+
+/* Recents & emoji */
+"Switch between a few apps on your Mac and they will show up here." = "Mac でアプリを切り替えると、ここに並びます。";
+"Tap an emoji to type it straight into whatever app is focused on your Mac." = "絵文字をタップすると、Mac の最前面のアプリにそのまま入力されます。";
+"FAVORITES" = "お気に入り";
+
+/* Clipboard */
+"THROW TO MAC" = "MAC へ投げる";
+"GRAB FROM MAC" = "MAC から取り込む";
+"Throw to clipboard" = "クリップボードへ投げる";
+"Type this text on the Mac" = "この文字を Mac に入力";
+"Pull" = "取得";
+"Copy on this device" = "この端末にコピー";
+
+/* Trackpad & keyboard */
+"Drag to move · Tap to click · Two fingers to scroll" = "なぞって移動・タップでクリック・2本指でスクロール";
+"Left click" = "左クリック";
+"Right click" = "右クリック";
+"Speed" = "速度";
+"Natural" = "ナチュラル";
+"Pointer speed" = "ポインタ速度";
+"TYPE ON THE MAC" = "MAC に入力";
+"MODIFIERS" = "修飾キー";
+"KEYS" = "キー";
+"Modifiers stay on until you tap them again, so ⌘ + a key combination works." = "修飾キーはもう一度タップするまで押しっぱなしになるので、⌘ と組み合わせて使えます。";
+
+/* Windows */
+"No windows reported" = "ウインドウがありません";
+"The app may have none open, or Accessibility access is off on the Mac." = "開いているウインドウが無いか、Mac のアクセシビリティ権限がオフです。";
+"Place the front window" = "最前面ウインドウの配置";
+"Minimize" = "最小化";
+"Minimized" = "最小化中";
+
+/* Status & files */
+"FILES" = "ファイル";
+"Send photo" = "写真を送る";
+"Send file" = "ファイルを送る";
+"Pull what's selected in Finder" = "Finder で選択中のものを取り込む";
+"Files land in the Mac's Downloads folder and are revealed in Finder." = "ファイルは Mac の Downloads に保存され、Finder で表示されます。";
+
+/* Settings */
+"Connected Mac" = "接続中の Mac";
+"Model" = "モデル";
+"Host app" = "ホストアプリ";
+"Refresh catalog" = "カタログを更新";
+"Pages" = "ページ";
+"Behaviour" = "動作";
+"Follow the front app" = "最前面アプリに追従";
+"When the Mac switches apps, the bar jumps to the page holding that app's tile." = "Mac のアプリが切り替わると、そのアプリのタイルがあるページへ移動します。";
+"Haptic feedback" = "触覚フィードバック";
+"Keep screen awake while connected" = "接続中は画面を消さない";
+"Never" = "しない";
+"5 min" = "5分";
+"15 min" = "15分";
+"30 min" = "30分";
+"Paired Macs" = "ペアリング済みの Mac";
+"None yet" = "まだありません";
+"Disconnect" = "接続を解除";
+"Forget this Mac" = "この Mac を忘れる";
+"Sync & backup" = "同期とバックアップ";
+"Sync this bar over iCloud" = "このバーを iCloud で同期";
+"iCloud" = "iCloud";
+"Export this bar as a file" = "バーをファイルに書き出す";
+"Import a bar file" = "バーのファイルを読み込む";
+
+/* Permission */
+"Accessibility is off on the Mac" = "Mac のアクセシビリティがオフです";
+"Pointer, keyboard and window control do nothing until it is granted." = "許可するまで、ポインタ・キーボード・ウインドウ操作は効きません。";
+
+/* Status cards */
+"Battery" = "バッテリー";
+"CPU" = "CPU";
+"Memory" = "メモリ";
+"Disk" = "ディスク";
+"Network" = "ネットワーク";
+"Uptime" = "稼働時間";
+"Charging" = "充電中";
+"On battery" = "バッテリー駆動";
+"Processor load" = "プロセッサ使用率";
+"Free space" = "空き容量";
+"Since last restart" = "前回の再起動から";
+"Reading the Mac…" = "Mac を読み込み中…";
+"Brightness is stepped with the display keys, so it lands close to the mark rather than exactly on it." = "輝度は輝度キーの送りで調整するため、指定値の近くまでの調整になります。";
+
+/* Trackpad buttons */
+"Drag" = "ドラッグ";
+"Drop" = "ドロップ";
+"DOCK" = "ドック";
+"FULL" = "全画面";
+
+/* Recents */
+"RUNNING NOW" = "起動中";
+"Tap to switch, swipe up to zoom, down to minimize" = "タップで切替、上スワイプで拡大、下で最小化";
+"EARLIER" = "履歴";
+"Your app timeline, newest first" = "使ったアプリの新しい順";
+
+/* Add sheet */
+"App" = "アプリ";
+"Shortcut" = "ショートカット";
+"Website" = "Web サイト";
+"Control" = "コントロール";
+"Search apps on your Mac" = "Mac のアプリを検索";
+"Search Shortcuts" = "ショートカットを検索";
+"Search controls" = "コントロールを検索";
+"Apps, Shortcuts, tiles, controls" = "アプリ・ショートカット・タイル・コントロール";
+"Search everything on your Mac" = "Mac の中をまとめて検索";
+"Address" = "アドレス";
+"SF Symbol" = "SF Symbol";
+"Or paste any emoji" = "絵文字を貼り付け";
+"No Shortcuts found" = "ショートカットがありません";
+"Create one in the Shortcuts app on your Mac, then reload from MobileDock’s settings." = "Mac のショートカットアプリで作成してから、設定で再読み込みしてください。";
